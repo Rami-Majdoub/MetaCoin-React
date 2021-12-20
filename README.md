@@ -4,24 +4,23 @@ Simple boilerplate with React, Truffle, Ganache, Webpack, and Babel
 ## screenshots
 <table>
 	<tr>
-  	<td> <img src="./screenshots/screenshot_00.png" height="200"> </td>
-  	<td> <img src="./screenshots/screenshot_01.png" height="200"> </td>
-  	<td> <img src="./screenshots/screenshot_02.png" height="200"> </td>
+  	<td> <img src="./screenshots/screenshot_00.PNG" height="200"> </td>
+  	<td> <img src="./screenshots/screenshot_01.PNG" height="200"> </td>
+  	<td> <img src="./screenshots/screenshot_02.PNG" height="200"> </td>
 	</tr>
 	<tr>
-  	<td> <img src="./screenshots/screenshot_03.png" height="200"> </td>
-  	<td> <img src="./screenshots/screenshot_04.png" height="200"> </td>
-  	<td> <img src="./screenshots/screenshot_05.png" height="200"> </td>
+  	<td> <img src="./screenshots/screenshot_03.PNG" height="200"> </td>
+  	<td> <img src="./screenshots/screenshot_04.PNG" height="200"> </td>
+  	<td> <img src="./screenshots/screenshot_05.PNG" height="200"> </td>
 	</tr>
 	<tr>
-  	<td> <img src="./screenshots/screenshot_06.png" height="200"> </td>
-  	<td> <img src="./screenshots/screenshot_07.png" height="200"> </td>
-  	<td> <img src="./screenshots/screenshot_08.png" height="200"> </td>
+  	<td> <img src="./screenshots/screenshot_06.PNG" height="200"> </td>
+  	<td> <img src="./screenshots/screenshot_07.PNG" height="200"> </td>
+  	<td> <img src="./screenshots/screenshot_08.PNG" height="200"> </td>
 	</tr>
 	<tr>
-  	<td> <img src="./screenshots/screenshot_09.png" height="200"> </td>
-  	<td> <img src="./screenshots/screenshot_10.png" height="200"> </td>
-		<td> <img src="./screenshots/screenshot_10.png" height="200"> </td>
+  	<td> <img src="./screenshots/screenshot_09.PNG" height="200"> </td>
+  	<td> <img src="./screenshots/screenshot_10.PNG" height="200"> </td>
 	</tr>
 </table>
 
