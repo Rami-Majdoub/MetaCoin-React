@@ -35,30 +35,21 @@ export default class MetaCoin extends Component {
         }
     }
 
-    startUp() {
+    async startUp() {
         const self = this
         this.MetaCoin = contract(metacoin_artifacts);
         // Bootstrap the MetaCoin abstraction for Use.
         this.MetaCoin.setProvider(web3.currentProvider);
 
         // Get the initial account balance so it can be displayed.
-        web3.eth.getAccounts(function (err, accs) {
-            if (err != null) {
-                alert("There was an error fetching your accounts.")
-                return
-            }
+	const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+	console.log(accounts);
 
-            if (accs.length == 0) {
-                alert("Couldn't get any accounts! Make sure your Ethereum client is configured correctly.")
-                return
-            }
-            self.setState({
-                accounts: accs,
-                account: accs[0]
-            })
-
-            self.refreshBalance();
+        self.setState({
+            accounts: accounts,
+            account: accounts[0]
         })
+        self.refreshBalance();
     }
 
     setStatus(status) {
@@ -115,7 +106,10 @@ export default class MetaCoin extends Component {
                 <h1>MetaCoin</h1>
                 <h2>Example Truffle Dapp</h2>
                 <h3>
-                    You have <span className="black"><span id="balance">{this.state.balance}</span> META</span></h3>
+                    You have <span className="black"><span id="balance">{this.state.balance}</span> META</span>
+		    <br />
+                    account: <span className="black">"{this.state.account}"</span>
+		</h3>
                 <br/>
                 <h1>Send MetaCoin</h1>
                 <form onSubmit={this.sendCoin}>
