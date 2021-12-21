@@ -4,7 +4,7 @@ Simple boilerplate with React, Truffle, Ganache, Webpack, and Babel
 ## screenshots
 [separate screenshots](screenshots)
 
-![(https://im4.ezgif.com/tmp/ezgif-4-bf2808d04b.gif)](https://im4.ezgif.com/tmp/ezgif-4-bf2808d04b.gif)
+![(./screenshots/ezgif.com-gif-maker.GIF)](./screenshots/ezgif.com-gif-maker.GIF)
 
 ```
 git clone git@github.com:Rami-Majdoub/MetaCoin-React.git
